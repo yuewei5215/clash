@@ -5,76 +5,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 法国(绿头外网集团)(Public), server: 107.191.47.91, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 107.191.47.91}, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: 139.180.198.206, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 139.180.198.206}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: 207.148.77.25, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 207.148.77.25}, udp: true}
-  - {name: Relay_日本-_217, server: scjp.scsevers.cf, port: 11312, type: vmess, uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: scjp.scsevers.cf}, udp: true}
-  - {name: newserver1_2, server: 159.203.73.153, port: 4396, type: vmess, uuid: 7ef93298-6931-4d0e-a9c1-98005ab374df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2rayhunter0122, ws-headers: {Host: 159.203.73.153}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_418, server: cnctfstohkt55.ggboynextdoor.best, port: 34000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: 28美国∞直连, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
-  - {name: 美国_3125, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
-  - {name: LT_1650, server: vpn-eu-node00e-bb.hi-l.eu, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: p0gkMB4ZVukw, udp: true}
-  - {name: 403更新_US_美国_17, server: fr.dadiangan.xyz, port: 24534, type: vmess, uuid: 9de3e9ba-18ce-4cd8-81a3-e4ed47fc7d41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dadiangan, ws-headers: {Host: fr.dadiangan.xyz}, udp: true}
-  - {name: ZZ_237, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR-15.188.144.106-09, server: fr-9.tjjjt.top, port: 443, type: trojan, password: iyinglong, sni: fr-9.tjjjt.top, skip-cert-verify: true, udp: true}
-  - {name: FR-35.181.7.117-11, server: fr-6.tjjjt.top, port: 443, type: trojan, password: iyinglong, sni: fr-6.tjjjt.top, skip-cert-verify: true, udp: true}
-  - {name: US-167.88.63.108-12, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-38.114.114.69-13, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-167.88.63.108-14, server: 167.88.63.108, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-167.88.63.108-16, server: 167.88.63.108, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-167.88.63.108-17, server: 167.88.63.108, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA-134.195.198.211-19, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-38.114.114.69-21, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US-38.114.114.69-22, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-167.88.63.108-23, server: 167.88.63.108, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-167.88.63.108-25, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US-38.114.114.69-26, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-167.88.63.108-28, server: 167.88.63.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-167.88.63.108-30, server: 167.88.63.108, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU-172.105.190.20-31, server: 172.105.190.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US-167.88.63.108-33, server: 167.88.63.108, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AU-172.105.190.20-34, server: 172.105.190.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: AU-172.105.190.20-35, server: 172.105.190.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU-172.105.190.20-37, server: 172.105.190.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AU-172.105.190.20-38, server: 172.105.190.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-134.195.196.187-41, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US-167.88.63.108-43, server: 167.88.63.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU-172.105.190.20-44, server: 172.105.190.20, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU-172.105.190.20-46, server: 172.105.190.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU-172.105.190.20-48, server: 172.105.190.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: AU-172.105.190.20-49, server: 172.105.190.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU-172.105.190.20-50, server: 172.105.190.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU-172.105.190.20-54, server: 172.105.190.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU-172.105.190.20-56, server: 172.105.190.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: AU-172.105.190.20-57, server: 172.105.190.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.187-58, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-134.195.196.3-59, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AU-172.105.190.20-60, server: 172.105.190.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU-172.105.190.20-61, server: 172.105.190.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA-134.195.196.68-62, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU-172.105.190.20-63, server: 172.105.190.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: GB-172.99.190.92-65, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US-38.114.114.69-66, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU-172.105.190.20-67, server: 172.105.190.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA-134.195.196.51-68, server: 134.195.196.51, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA-134.195.196.187-69, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU-172.105.190.20-70, server: 172.105.190.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA-134.195.196.187-72, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-134.195.196.51-75, server: 134.195.196.51, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-134.195.196.81-76, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA-134.195.196.81-78, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.81-79, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: IN_125+_+2_11Mb_4, server: 172.105.33.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: SG_137_9_98Mb_5, server: 207.148.77.25, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 207.148.77.25}, udp: true}
-  - {name: IN_124+_+2_33Mb_6, server: 172.105.33.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_106_0_04Mb_8, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_115_2_34Mb_9, server: 183.232.56.161, port: 1212, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_111_1_41Mb_14, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_116_4_72Mb_15, server: 183.232.56.161, port: 1802, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: JP_661_2_92Mb_16, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_141_8_06Mb_18, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_146_24_30Mb_19, server: hk1.lolvps.xyz, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /D1LYYDHH, ws-headers: {Host: hk1.lolvps.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_144_7_80Mb_20, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}, udp: true}
+  - {name: 2022.04.06_ |33.43Mb, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: ://86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: 2022.04.06_ |32.80Mb, server: scjp.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 2022.04.06_🇦🇺AU-🇦🇺AU_52 |31.08Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: "|41.64Mb", server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|31.70Mb", server: 146.56.159.81, port: 21365, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇨🇦CA_247 |71.64Mb, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_2015 |99.78Mb, server: 38.91.107.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 1, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB_614 |46.20Mb, server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: aaa 71, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa 104, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa 396, server: 210.3.245.46, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /D1LYYDHH, headers: {Host: 210.3.245.46}}, udp: true}
+  - {name: aaa 397, server: hk.guiqing.ml, port: 35970, type: vmess, uuid: c44b723d-38e3-4490-df95-40761563f6d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.guiqing.ml}}, udp: true}
+  - {name: aaa 400, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
+  - {name: aaa 432, server: 198.13.61.192, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 198.13.61.192}}, udp: true}
+  - {name: aaa 446, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: aaa 535, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: aaa 583, server: 104.16.196.47, port: 443, type: vmess, uuid: 3256a220-3c95-4844-839c-3b509c1c0997, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: production.flat-firefly-71d2.v20210811.workers.dev}}, udp: true}
+  - {name: aaa 601, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
+  - {name: aaa 607, server: 20.24.86.247, port: 32018, type: vmess, uuid: 1c0a8702-d3f4-46f4-970f-6cb84dcde755, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: aaa 628, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: true, udp: true}
+  - {name: JP-164.70.102.40-26, server: scjp.scsevers.cf, port: 11312, type: vmess, uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: scjp.scsevers.cf}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -91,152 +43,56 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 法国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - Relay_日本-_217
-      - newserver1_2
-      - Relay_🇨🇳CN-🇭🇰HK_418
-      - 28美国∞直连
-      - 美国_3125
-      - LT_1650
-      - 403更新_US_美国_17
-      - ZZ_237
-      - FR-15.188.144.106-09
-      - FR-35.181.7.117-11
-      - US-167.88.63.108-12
-      - US-38.114.114.69-13
-      - US-167.88.63.108-14
-      - US-167.88.63.108-16
-      - US-167.88.63.108-17
-      - CA-134.195.198.211-19
-      - US-38.114.114.69-21
-      - US-38.114.114.69-22
-      - US-167.88.63.108-23
-      - US-167.88.63.108-25
-      - US-38.114.114.69-26
-      - US-167.88.63.108-28
-      - US-167.88.63.108-30
-      - AU-172.105.190.20-31
-      - US-167.88.63.108-33
-      - AU-172.105.190.20-34
-      - AU-172.105.190.20-35
-      - AU-172.105.190.20-37
-      - AU-172.105.190.20-38
-      - CA-134.195.196.187-41
-      - US-167.88.63.108-43
-      - AU-172.105.190.20-44
-      - AU-172.105.190.20-46
-      - AU-172.105.190.20-48
-      - AU-172.105.190.20-49
-      - AU-172.105.190.20-50
-      - AU-172.105.190.20-54
-      - AU-172.105.190.20-56
-      - AU-172.105.190.20-57
-      - CA-134.195.196.187-58
-      - CA-134.195.196.3-59
-      - AU-172.105.190.20-60
-      - AU-172.105.190.20-61
-      - CA-134.195.196.68-62
-      - AU-172.105.190.20-63
-      - GB-172.99.190.92-65
-      - US-38.114.114.69-66
-      - AU-172.105.190.20-67
-      - CA-134.195.196.51-68
-      - CA-134.195.196.187-69
-      - AU-172.105.190.20-70
-      - CA-134.195.196.187-72
-      - CA-134.195.196.51-75
-      - CA-134.195.196.81-76
-      - CA-134.195.196.81-78
-      - CA-134.195.196.81-79
-      - IN_125+_+2_11Mb_4
-      - SG_137_9_98Mb_5
-      - IN_124+_+2_33Mb_6
-      - Relay_🇨🇳CN-🏁ZZ_106_0_04Mb_8
-      - Relay_🇨🇳CN-🇦🇺AU_115_2_34Mb_9
-      - Relay_🇨🇳CN-🏁ZZ_111_1_41Mb_14
-      - Relay_🇨🇳CN-🇬🇧GB_116_4_72Mb_15
-      - JP_661_2_92Mb_16
-      - Relay_🇺🇸US-🇯🇵JP_141_8_06Mb_18
-      - Relay_🇺🇸US-🇺🇸US_146_24_30Mb_19
-      - Relay_🇺🇸US-🇺🇸US_144_7_80Mb_20
+      - 2022.04.06_ |33.43Mb
+      - 2022.04.06_ |32.80Mb
+      - 2022.04.06_🇦🇺AU-🇦🇺AU_52 |31.08Mb
+      - "|41.64Mb"
+      - "|31.70Mb"
+      - Pool_🇨🇦CA_247 |71.64Mb
+      - US_2015 |99.78Mb
+      - github.com/freefq - 日本东京都品川区Linode数据中心 1
+      - GB_614 |46.20Mb
+      - aaa 71
+      - aaa 104
+      - aaa 396
+      - aaa 397
+      - aaa 400
+      - aaa 432
+      - aaa 446
+      - aaa 535
+      - aaa 583
+      - aaa 601
+      - aaa 607
+      - aaa 628
+      - JP-164.70.102.40-26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 法国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - Relay_日本-_217
-      - newserver1_2
-      - Relay_🇨🇳CN-🇭🇰HK_418
-      - 28美国∞直连
-      - 美国_3125
-      - LT_1650
-      - 403更新_US_美国_17
-      - ZZ_237
-      - FR-15.188.144.106-09
-      - FR-35.181.7.117-11
-      - US-167.88.63.108-12
-      - US-38.114.114.69-13
-      - US-167.88.63.108-14
-      - US-167.88.63.108-16
-      - US-167.88.63.108-17
-      - CA-134.195.198.211-19
-      - US-38.114.114.69-21
-      - US-38.114.114.69-22
-      - US-167.88.63.108-23
-      - US-167.88.63.108-25
-      - US-38.114.114.69-26
-      - US-167.88.63.108-28
-      - US-167.88.63.108-30
-      - AU-172.105.190.20-31
-      - US-167.88.63.108-33
-      - AU-172.105.190.20-34
-      - AU-172.105.190.20-35
-      - AU-172.105.190.20-37
-      - AU-172.105.190.20-38
-      - CA-134.195.196.187-41
-      - US-167.88.63.108-43
-      - AU-172.105.190.20-44
-      - AU-172.105.190.20-46
-      - AU-172.105.190.20-48
-      - AU-172.105.190.20-49
-      - AU-172.105.190.20-50
-      - AU-172.105.190.20-54
-      - AU-172.105.190.20-56
-      - AU-172.105.190.20-57
-      - CA-134.195.196.187-58
-      - CA-134.195.196.3-59
-      - AU-172.105.190.20-60
-      - AU-172.105.190.20-61
-      - CA-134.195.196.68-62
-      - AU-172.105.190.20-63
-      - GB-172.99.190.92-65
-      - US-38.114.114.69-66
-      - AU-172.105.190.20-67
-      - CA-134.195.196.51-68
-      - CA-134.195.196.187-69
-      - AU-172.105.190.20-70
-      - CA-134.195.196.187-72
-      - CA-134.195.196.51-75
-      - CA-134.195.196.81-76
-      - CA-134.195.196.81-78
-      - CA-134.195.196.81-79
-      - IN_125+_+2_11Mb_4
-      - SG_137_9_98Mb_5
-      - IN_124+_+2_33Mb_6
-      - Relay_🇨🇳CN-🏁ZZ_106_0_04Mb_8
-      - Relay_🇨🇳CN-🇦🇺AU_115_2_34Mb_9
-      - Relay_🇨🇳CN-🏁ZZ_111_1_41Mb_14
-      - Relay_🇨🇳CN-🇬🇧GB_116_4_72Mb_15
-      - JP_661_2_92Mb_16
-      - Relay_🇺🇸US-🇯🇵JP_141_8_06Mb_18
-      - Relay_🇺🇸US-🇺🇸US_146_24_30Mb_19
-      - Relay_🇺🇸US-🇺🇸US_144_7_80Mb_20
+      - 2022.04.06_ |33.43Mb
+      - 2022.04.06_ |32.80Mb
+      - 2022.04.06_🇦🇺AU-🇦🇺AU_52 |31.08Mb
+      - "|41.64Mb"
+      - "|31.70Mb"
+      - Pool_🇨🇦CA_247 |71.64Mb
+      - US_2015 |99.78Mb
+      - github.com/freefq - 日本东京都品川区Linode数据中心 1
+      - GB_614 |46.20Mb
+      - aaa 71
+      - aaa 104
+      - aaa 396
+      - aaa 397
+      - aaa 400
+      - aaa 432
+      - aaa 446
+      - aaa 535
+      - aaa 583
+      - aaa 601
+      - aaa 607
+      - aaa 628
+      - JP-164.70.102.40-26
   - name: 📲 电报消息
     type: select
     proxies:
@@ -413,44 +269,22 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_418
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本(绿头外网集团)(Public)
-      - Relay_日本-_217
-      - JP_661_2_92Mb_16
-      - Relay_🇺🇸US-🇯🇵JP_141_8_06Mb_18
+      - github.com/freefq - 日本东京都品川区Linode数据中心 1
+      - JP-164.70.102.40-26
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 28美国∞直连
-      - 美国_3125
-      - 403更新_US_美国_17
-      - US-167.88.63.108-12
-      - US-38.114.114.69-13
-      - US-167.88.63.108-14
-      - US-167.88.63.108-16
-      - US-167.88.63.108-17
-      - US-38.114.114.69-21
-      - US-38.114.114.69-22
-      - US-167.88.63.108-23
-      - US-167.88.63.108-25
-      - US-38.114.114.69-26
-      - US-167.88.63.108-28
-      - US-167.88.63.108-30
-      - US-167.88.63.108-33
-      - US-167.88.63.108-43
-      - US-38.114.114.69-66
-      - Relay_🇺🇸US-🇯🇵JP_141_8_06Mb_18
-      - Relay_🇺🇸US-🇺🇸US_146_24_30Mb_19
-      - Relay_🇺🇸US-🇺🇸US_144_7_80Mb_20
+      - US_2015 |99.78Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -464,8 +298,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡(绿头外网集团)(Public)
-      - SG_137_9_98Mb_5
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
