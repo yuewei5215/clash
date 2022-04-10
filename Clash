@@ -5,24 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.63|SSRSUBV03付费推荐suoytssrsub, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本_928, server: scjp.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: ",JP,[20.89.54.45],08", server: eimi.quoctai.xyz, port: 80, type: vmess, uuid: caf12d12-e017-44fe-b741-f8727e2fecd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /quoctai, headers: {Host: Livestream2.tv360.vn}}, udp: true}
-  - {name: JP-164.70.102.40-26, server: scjp.scsevers.cf, port: 11312, type: vmess, uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: scjp.scsevers.cf}}, udp: true}
-  - {name: 美国, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_韩国-_1177, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: 3.57|CA597, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 183.232.56.161, port: 5019, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
-  - {name: "新加�?_9005", server: 103.172.116.7, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 中国_414, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
-  - {name: 美国 2, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
-  - {name: 德国_9018, server: 5.183.179.139, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: US4, server: cg.rutracker-cn.com, port: 443, type: vmess, uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cg.rutracker-cn.com, network: ws, ws-opts: {path: /teishTqRb, headers: {Host: cg.rutracker-cn.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_29, server: 152.70.106.35, port: 39033, type: vmess, uuid: ed6e41e8-1803-4af7-d65a-0581a5e9220a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1.19|SSRSUBV01付费推荐suoytssrsub, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}, udp: true}
-  - {name: US2, server: ce.rutracker-cn.com, port: 443, type: vmess, uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ce.rutracker-cn.com, network: ws, ws-opts: {path: /IqTUMDzwOI, headers: {Host: ce.rutracker-cn.com}}, udp: true}
+  - {name: _KR_韩国_44, server: 158.247.224.123, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _KR_韩国_46, server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _KR_韩国_70, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _KR_韩国_90, server: 158.247.203.40, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: "JP, 3", server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 香港节点1(免费)倍率0x不消耗流量), server: hkmf1.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: 香港节点2(免费)倍率0x不消耗流量), server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: 韩国KR 105 *hi-moon.pw, server: 158.247.224.123, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港(t_me/bp_yyds)_7, server: nn03.nfeng6.pp.ua, port: 60029, type: vmess, uuid: dfbfd4a4-320d-33b0-b62d-14f940dbd1c3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
+  - {name: 日本(t_me/bp_yyds)_3, server: nn03.nfeng6.pp.ua, port: 60037, type: vmess, uuid: dfbfd4a4-320d-33b0-b62d-14f940dbd1c3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
+  - {name: 香港(t_me/bp_yyds)_9, server: nn01.nfeng6.pp.ua, port: 60021, type: vmess, uuid: dfbfd4a4-320d-33b0-b62d-14f940dbd1c3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
+  - {name: 日本(t_me/bp_yyds)_4, server: nn02.nfeng6.pp.ua, port: 60010, type: vmess, uuid: dfbfd4a4-320d-33b0-b62d-14f940dbd1c3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 42, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 39, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|3号, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fssdfs-dvs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|4号, server: v2-3.godlight.xyz, port: 39273, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g16556hg14-g415, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|2号, server: v2-1.godlight.xyz, port: 12232, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g4354436f-f134, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 香港HK 75 *hi-moon.pw, server: 34.150.120.105, port: 10246, type: vmess, uuid: 8379aad3-e0ae-4d1d-8260-4d800dd3a051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港HK 79 *hi-moon.pw, server: 34.150.17.150, port: 43025, type: vmess, uuid: 50175e16-b7f0-48b6-9502-f1a2e6cd71ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 新加坡SG 139 *hi-moon.pw, server: 34.143.205.115, port: 58181, type: vmess, uuid: 6012591a-4a9f-4228-d4a2-245ecb598a92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾TW 23 *hi-moon.pw, server: 34.80.198.210, port: 50895, type: vmess, uuid: 3cade6c5-4516-490f-89bc-3913e3478c12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,48 +44,58 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - _KR_韩国_44
+      - _KR_韩国_46
+      - _KR_韩国_70
+      - _KR_韩国_90
       - 日本(欢迎订阅Youtube破解资源君)
-      - 5.63|SSRSUBV03付费推荐suoytssrsub
-      - 日本_928
-      - ",JP,[20.89.54.45],08"
-      - JP-164.70.102.40-26
-      - 美国
-      - Relay_韩国-_1177
-      - 3.57|CA597
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 新加�?_9005
-      - 中国_414
-      - 美国 2
-      - 德国_9018
-      - US4
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 美国_29
-      - 1.19|SSRSUBV01付费推荐suoytssrsub
-      - US2
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - JP, 3
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 韩国KR 105 *hi-moon.pw
+      - 香港(t_me/bp_yyds)_7
+      - 日本(t_me/bp_yyds)_3
+      - 香港(t_me/bp_yyds)_9
+      - 日本(t_me/bp_yyds)_4
+      - 美国(欢迎订阅Youtube破解资源君) 42
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 39
+      - TG频道|https://t.me/getv2ray|3号
+      - TG频道|https://t.me/getv2ray|4号
+      - TG频道|https://t.me/getv2ray|2号
+      - 香港HK 75 *hi-moon.pw
+      - 香港HK 79 *hi-moon.pw
+      - 新加坡SG 139 *hi-moon.pw
+      - 台湾TW 23 *hi-moon.pw
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - _KR_韩国_44
+      - _KR_韩国_46
+      - _KR_韩国_70
+      - _KR_韩国_90
       - 日本(欢迎订阅Youtube破解资源君)
-      - 5.63|SSRSUBV03付费推荐suoytssrsub
-      - 日本_928
-      - ",JP,[20.89.54.45],08"
-      - JP-164.70.102.40-26
-      - 美国
-      - Relay_韩国-_1177
-      - 3.57|CA597
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 新加�?_9005
-      - 中国_414
-      - 美国 2
-      - 德国_9018
-      - US4
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 美国_29
-      - 1.19|SSRSUBV01付费推荐suoytssrsub
-      - US2
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - JP, 3
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 韩国KR 105 *hi-moon.pw
+      - 香港(t_me/bp_yyds)_7
+      - 日本(t_me/bp_yyds)_3
+      - 香港(t_me/bp_yyds)_9
+      - 日本(t_me/bp_yyds)_4
+      - 美国(欢迎订阅Youtube破解资源君) 42
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 39
+      - TG频道|https://t.me/getv2ray|3号
+      - TG频道|https://t.me/getv2ray|4号
+      - TG频道|https://t.me/getv2ray|2号
+      - 香港HK 75 *hi-moon.pw
+      - 香港HK 79 *hi-moon.pw
+      - 新加坡SG 139 *hi-moon.pw
+      - 台湾TW 23 *hi-moon.pw
   - name: 📲 电报消息
     type: select
     proxies:
@@ -257,7 +272,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港(t_me/bp_yyds)_7
+      - 香港(t_me/bp_yyds)_9
+      - 香港HK 75 *hi-moon.pw
+      - 香港HK 79 *hi-moon.pw
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -265,41 +285,42 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 日本(欢迎订阅Youtube破解资源君)
-      - 日本_928
-      - ",JP,[20.89.54.45],08"
-      - JP-164.70.102.40-26
+      - JP, 3
+      - 日本(t_me/bp_yyds)_3
+      - 日本(t_me/bp_yyds)_4
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 美国
-      - 美国 2
-      - US4
-      - 美国_29
-      - US2
+      - 美国(欢迎订阅Youtube破解资源君) 42
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 39
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 台湾TW 23 *hi-moon.pw
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 新加坡SG 139 *hi-moon.pw
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_韩国-_1177
+      - _KR_韩国_44
+      - _KR_韩国_46
+      - _KR_韩国_70
+      - _KR_韩国_90
+      - 韩国KR 105 *hi-moon.pw
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -1977,41 +1998,6 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
- - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,mtalk.google.com,📢 谷歌FCM
- - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
  - DOMAIN-SUFFIX,265.com,🎯 全球直连
  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
